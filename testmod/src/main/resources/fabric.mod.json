@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "vblyat",
+  "version": "${version}",
+
+  "name": "Janekjani's Dupe client",
+  "description": "dupes using itemframe on anarchy servers(usefull for 6b6t)",
+  "authors": [
+    "janekjani"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/vblyat/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "vblyat.janeka.janekc.GayNiga"
+    ]
+  },
+  "mixins": [
+    "vblyat.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.19.3",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
